@@ -11,6 +11,10 @@
 
 ### Usage
 
+**Please Make Sure to Input Corporation ID / Corporation Secret in Lambda Evironment Variables**
+
+**使用该Lambda Layer 请务必设置调用Lambda内微信的CorpId和CorpSecret环境变量以获取Access Token 调用微信接口**
+
 ```
 import json
 import os
