@@ -6,19 +6,19 @@ Metadata:
     Author: nikosheng
     SpdxLicenseId: Apache-2.0
     LicenseUrl: s3://aws-nikofeng-serverless-application-repo/3b83ef96387f14655fc854ddc3c6bd57
-    ReadmeUrl: s3://aws-nikofeng-serverless-application-repo/dbe2d76abdf46c837f141e59c930004e
+    ReadmeUrl: s3://aws-nikofeng-serverless-application-repo/ddc79b65667b7156437b9f47d021ca90
     Labels:
     - wechat
     - lambda-layer
-    HomePageUrl: https://github.com/nikosheng/wechat-layer-sam
-    SemanticVersion: 1.0.3
-    SourceCodeUrl: https://github.com/nikosheng/wechat-layer-sam
+    HomePageUrl: https://github.com/nikosheng/wechat-lambda-layer-sam
+    SemanticVersion: 1.0.4
+    SourceCodeUrl: https://github.com/nikosheng/wechat-lambda-layer-sam
 Resources:
   WechatLambdaLayer:
     Type: AWS::Serverless::LayerVersion
     Properties:
       LayerName: WechatLayer
-      Description: v.1.0.3
+      Description: v.1.0.4
       ContentUri: s3://aws-nikofeng-serverless-application-repo/11f7ad6a8db16307e198f6a4e8c2cbf3
       CompatibleRuntimes:
       - python3.6
