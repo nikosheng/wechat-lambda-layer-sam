@@ -18,7 +18,6 @@ from wechat import Wechat
 from alarm import Alarm
 
 def handler(event, context):
-    event['Records'][0]['Sns']['Subject']
     corpId = os.environ['CORPID']
     corpSecret = os.environ['CORPSECRET']
     wechat = Wechat(corpId, corpSecret)

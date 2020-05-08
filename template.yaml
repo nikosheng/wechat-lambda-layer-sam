@@ -10,7 +10,7 @@ Metadata:
     ReadmeUrl: README.md
     Labels: ['wechat', 'lambda-layer']
     HomePageUrl: https://github.com/nikosheng/wechat-lambda-layer-sam
-    SemanticVersion: 1.0.4
+    SemanticVersion: 1.0.5
     SourceCodeUrl: https://github.com/nikosheng/wechat-lambda-layer-sam
 
 Resources:
@@ -18,7 +18,7 @@ Resources:
     Type: AWS::Serverless::LayerVersion
     Properties:
       LayerName: WechatLayer
-      Description: v.1.0.4
+      Description: v.1.0.5
       ContentUri: layer/
       CompatibleRuntimes:
       - python3.6
