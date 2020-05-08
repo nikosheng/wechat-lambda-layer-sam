@@ -1,0 +1,19 @@
+Transform: AWS::Serverless-2016-10-31
+Description: Wechat Lambda Layer - Produced by Niko Feng(nikosheng@gmail.com)
+
+Resources:
+  WechatLambdaLayer:
+    Type: AWS::Serverless::LayerVersion
+    Properties:
+      LayerName: WechatLayer
+      Description: v.1.0.0
+      ContentUri: layer/
+      CompatibleRuntimes:
+      - python3.6
+      - python3.7
+      - python3.8
+
+Outputs:
+  WechatLambdaLayer:
+    Value:
+      Ref: WechatLambdaLayer
