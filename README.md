@@ -1,4 +1,4 @@
-# wechat-layer-sam
+# wechat-lambda-layer-sam
 
 ### Deploy in Serverless Application Repository
 
